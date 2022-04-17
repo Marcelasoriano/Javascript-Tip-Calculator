@@ -24,7 +24,7 @@ height: 100vh;
 overflow: hidden;
 display: grid;
 place-items: center;
-background: rgb(12, 141, 195);
+background: black;
 font-family: "Lato", sans-serif;
 font-weight: 400;
 line-height: 1.75;
@@ -184,7 +184,7 @@ cursor: pointer;
   	output.innerText =
   		totalPeople.value > 1
   			? `Each person should tip ${totalPerPerson}`
-  			: `You should tip ${totalPerPerson}`;
+  			: `Recommended tip: ${totalPerPerson}`;
   }
 
   function displayPercentage() {
