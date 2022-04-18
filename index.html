@@ -64,6 +64,7 @@ text-align: center;
 box-shadow: 0 0 20px white;
 padding: 10px;
 color: black;
+font-size: 30px;
 }
 
 form {
@@ -82,6 +83,9 @@ border: none;
 font-size: 21px;
 color: blue;
 border-bottom: 1px dashed black;
+border-top: 1px dashed black;
+border-left: 1px dashed black;
+border-right: 1px dashed black;
 
 /* Hide spinners and steppers - Firefox */
 -moz-appearance: textfield;
@@ -110,10 +114,10 @@ border-radius: 3px;
 #percentage::-webkit-slider-thumb {
 -webkit-appearance: none;
 appearance: none;
-width: 17px;
-height: 19px;
-border-radius: 20%;
-  
+width: 30px;
+height: 30px;
+border-radius: 50%;
+border: 2px solid black;
 background: white;
 cursor: pointer;
 }
@@ -195,7 +199,7 @@ cursor: pointer;
     
   calculateTip();
 
-  </script>
-</body>
+    </script>
+  </body>
 </html>
 
